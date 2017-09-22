@@ -1,0 +1,8 @@
+
+if [ -n "$SSH_CLIENT" ] || [ -n "$SSH_TTY" ]; then
+  return
+fi
+
+if ! xset q &>/dev/null; then
+  startx -- -nocursor
+fi
