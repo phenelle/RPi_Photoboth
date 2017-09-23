@@ -1,0 +1,63 @@
+{
+  "_from": "susy@2.2.12",
+  "_id": "susy@2.2.12",
+  "_inBundle": false,
+  "_integrity": "sha1-ZEwkQe0A0pMofo1JoBbb+RkhWVM=",
+  "_location": "/susy",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "susy@2.2.12",
+    "name": "susy",
+    "escapedName": "susy",
+    "rawSpec": "2.2.12",
+    "saveSpec": null,
+    "fetchSpec": "2.2.12"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/susy/-/susy-2.2.12.tgz",
+  "_shasum": "644c2441ed00d293287e8d49a016dbf919215953",
+  "_spec": "susy@2.2.12",
+  "_where": "/Users/capucinebatteur/Documents/WWW/cgicom/docroot/themes/custom/cgi_default",
+  "author": {
+    "name": "Miriam Eric Suzanne",
+    "email": "miriam@oddbird.net"
+  },
+  "bugs": {
+    "url": "https://github.com/oddbird/susy/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Sass power-tools for web layout.",
+  "devDependencies": {
+    "sass-true": "^2.0.3"
+  },
+  "eyeglass": {
+    "exports": "eyeglass-exports.js",
+    "needs": "*"
+  },
+  "homepage": "https://github.com/oddbird/susy#readme",
+  "keywords": [
+    "layout",
+    "grid",
+    "sass",
+    "responsive",
+    "rwd",
+    "semantic",
+    "eyeglass-module"
+  ],
+  "license": "BSD-3-Clause",
+  "main": "sass/_susy.scss",
+  "name": "susy",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oddbird/susy.git"
+  },
+  "scripts": {
+    "test": "rake test"
+  },
+  "version": "2.2.12"
+}

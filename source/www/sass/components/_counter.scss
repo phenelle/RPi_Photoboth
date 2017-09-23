@@ -1,0 +1,44 @@
+.counter {
+  &.main {
+    background-color: #fff;
+  }
+  .counter-wrapper-3 {
+    background: transparent url('../img/icons/3.png') 0 0 no-repeat;
+    width: 290px;
+    height: 290px;
+  }
+  .counter-wrapper-2 {
+    background: transparent url('../img/icons/2.png') 0 0 no-repeat;
+    width: 290px;
+    height: 290px;
+  }
+  .counter-wrapper-1 {
+    background: transparent url('../img/icons/1.png') 0 0 no-repeat;
+    width: 290px;
+    height: 290px;
+  }
+  div[class*="counter-wrapper"] {
+    position: relative;
+    margin: 0 auto;
+    h2 {
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      top: 50px;
+      font-size: 130px;
+      font-weight: 700;
+    }
+  }
+}
+
+
+// svg {
+//    -webkit-transform: rotate(-90deg);
+//     transform: rotate(-90deg);
+// }
+
+// .circle_animation {
+//   stroke-dasharray: 440; /* this value is the pixel circumference of the circle */
+//   stroke-dashoffset: 440;
+//   transition: all 1s linear;
+// }

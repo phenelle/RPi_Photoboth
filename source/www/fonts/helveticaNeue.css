@@ -1,0 +1,26 @@
+/* Sample font-face for poppins webfont */
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('helveticaNeue/HelveticaNeueLTStd-Roman.ttf');
+}
+
+@font-face {
+  font-family: 'Helvetica Neue Black';
+  src: url('helveticaNeue/HelveticaNeueLTStd-Blk.ttf');
+}
+
+@font-face {
+  font-family: 'Helvetica Neue Light';
+  src: url('helveticaNeue/HelveticaNeueLTStd-Lt.ttf');
+}
+
+@font-face {
+  font-family: 'Helvetica Neue Medium';
+  src: url('helveticaNeue/HelveticaNeueLTStd-Md.ttf');
+}
+
+@font-face {
+  font-family: 'Helvetica Neue Bold';
+  src: url('helveticaNeue/HelveticaNeueLTStd-Bd.ttf');
+}

@@ -1,0 +1,65 @@
+.main {
+  background-color: $mild-coolaid;
+  width: 800px;
+  height: 480px;
+  display: table-cell;
+  vertical-align: middle;
+  &.orange {
+    background-color: $cool-orange;
+  }
+  h1 {
+    text-transform: uppercase;
+    color: $white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    text-shadow: 1px 2px 7px #AAAAAA;
+    &.big {
+      font-size: 40px;
+    }
+  }
+  .next-icon,
+  .previous-icon {
+    padding-right: 45px;
+    padding-left: 45px;
+    a {
+      display: inline-block;
+    }
+  }
+  .buttons-action {
+    .btn {
+      color: $white;
+      background-color: $cool-orange;
+    }
+  }
+  .inline-content {
+    display: table;
+    width: 100%;
+    > * {
+      display: table-cell;
+      vertical-align: middle;
+    }
+    h1 {
+      text-align: right;
+    }
+  }
+  .inline-content-right {
+    display: table;
+    width: 100%;
+    > * {
+      display: table-cell;
+      vertical-align: middle;
+    }
+    h1 {
+      text-align: left;
+    }
+    .previous-icon {
+      text-align: right;
+      padding-right: 30px;
+      img {
+        position: relative;
+        top: -9px;
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+//////////////////////////////////
+// Primary Container Rules ///////
+//////////////////////////////////
+
+.cog--mq {
+  @include container(67.5em);
+
+  margin: 10px auto;
+}
+
+.cog--full {
+  @include container(100%);
+}
+
+.main {
+  position: relative;
+  .logo {
+    position: absolute;
+    z-index: 15;
+    color: white;
+    top: 20px;
+    left: 30px;
+    font-size: 18px;
+  }
+}

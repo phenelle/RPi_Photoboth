@@ -1,0 +1,76 @@
+.slideshow {
+   width: 800px;
+   height: 480px;
+   overflow: hidden;
+}
+
+.slideshow ul {
+    /* 3 images donc 3 x 100% */
+   width: 300%;
+   height: 480px;
+   padding:0;
+   margin:0;
+   list-style: none;
+}
+.slideshow li {
+   float: left;
+   position: relative;
+   z-index: 5;
+   .color-filter {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 800px;
+      height: 480px;
+      overflow: hidden;
+      display: inline-block;
+      z-index: 10;
+   }
+}
+.slideshow .buttons-language {
+   color: transparent;
+   position: absolute;
+   bottom: 95px;
+   z-index: 20;
+   width: 100%;
+   text-align: center;
+   .btn:first-child {
+      margin-right: 40px;
+   }
+}
+li.li-p1 {
+   .color-filter {
+      background-color: $cool-blue;
+      opacity: .87;
+   }
+   .btn {
+      color: $cool-blue;
+   }
+}
+li.li-p2 {
+   .color-filter {
+      background-color: $cool-orange;
+      opacity: .87;
+   }
+   .btn {
+      color: $cool-orange;
+   }
+}
+li.li-p3 {
+   .color-filter {
+      background-color: $green;
+      opacity: .87;
+   }
+   .btn {
+      color: $green;
+   }
+}
+li.li-p4 {
+   .color-filter {
+      background-color: $tanned-beige;
+      opacity: .87;
+   }
+   .btn {
+      color: $tanned-beige;
+   }
+}
