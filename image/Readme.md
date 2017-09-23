@@ -1,6 +1,11 @@
-This folder holds a working SD Card image of the project
+Github doesnt allow me to host large file, so here is a the link to the SD card:
 
-Simply burn that thing on your RPi, and you are ready to go!
+https://www.cubitux.ca/img/github/rpi-photobooth-20170923.img.zip
+
+
+Simply burn that file on an 8GB SD Card, boot RPi, and you are ready to go!
+
+(More info available here https://www.raspberrypi.org/documentation/installation/installing-images/)
 
 
 Config
